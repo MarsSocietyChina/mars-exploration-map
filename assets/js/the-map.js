@@ -61,7 +61,7 @@ var workingMarker = L.ExtraMarkers.icon({
 
 
 
-var baseUrl = 'http://s3-eu-west-1.amazonaws.com/whereonmars.cartodb.net/';
+var baseUrl = '//s3-eu-west-1.amazonaws.com/whereonmars.cartodb.net/';
 
 
 var basemapMOLAColor = new L.tileLayer(baseUrl + 'mola-color/{z}/{x}/{y}.png', {
